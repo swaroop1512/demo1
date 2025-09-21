@@ -39,13 +39,13 @@ cd csv-uploader
 2. **Install Dependencies**
    
 ```bash
-   npm install
+npm install
 ```
   
 3. **Configure environment variables**
    Copy .env.example to .env:
 ```bash
-   cp .env.example .env
+cp .env.example .env
 ```
 
   Edit .env with your PostgreSQL credentials:
@@ -63,5 +63,5 @@ npm start
 ```
 5. **Open the following page and upload your csv file
 ```bash
-  http://localhost:3000
+http://localhost:3000
 ```
